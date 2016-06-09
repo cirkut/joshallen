@@ -1,0 +1,122 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Josh Allen | Michigan Web Developer | Graphic Designer | Identity &amp; Brand Developer | Web Consultant</title>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/flexboxgrid/6.3.0/flexboxgrid.min.css" type="text/css" >
+		<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+		<link rel="stylesheet" href="/main.css">
+		<link rel="stylesheet" href="/fonts/stylesheet.css">
+	</head>
+	<body>
+		<section id="intro" class="fullheight">
+			<div class="top">
+				<h1 class="title">Josh Allen</h1>
+			</div>
+			<div class="bottom">
+				<h2 class="subtitle">Michigan Web Developer</h2>
+			</div>
+			<div class="dots">
+				<img src="dots-short-half.png" alt="Dots">
+			</div>
+		</section>
+		<section id="companies">
+			<div class="row">
+				<div class="col-xs-6 col-sm-3 company"><img src="magliner.png" alt="Magliner"></div>
+				<div class="col-xs-6 col-sm-3 company"><img src="northwood-university.png" alt="Northwood University"></div>
+				<div class="col-xs-6 col-sm-3 company"><img src="michigan-sugar.png" alt="Michigan Sugar"></div>
+				<div class="col-xs-6 col-sm-3 company"><img src="glatfelter.png" alt="Glatfelter"></div>
+			</div>
+		</section>
+		<section id="main">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-4 service">
+						<i class="ion-ios-cog"></i>
+						<h3>Development</h3>
+						<p>With experience in both front-end and backend web applications and websites, I believe I can help with your development needs.</p>
+					</div>
+					<div class="col-xs-12 col-sm-4 service">
+						<i class="ion-ios-color-filter"></i>
+						<h3>Design</h3>
+						<p>Whether it's as simple as a flyer or brochure, or developing a brand mark and designing various use-cases, I'm fully capable of delivering what you need.</p>
+					</div>
+					<div class="col-xs-12 col-sm-4 service">
+						<i class="ion-ios-people"></i>
+						<h3>User Experience</h3>
+						<p>I'm passionate about designing and developing user-friendly interfaces and templates that are both functional and elegant.</p>
+					</div>
+					<div class="col-xs-12">
+						<p>Hi! I'm Josh and I'm incredibly passionate about technology, the web, and making the world as beautiful and as functional as possible. For over a decade I've been designing and developing websites, web applications, providing consulting services to local companies and non-profits, and creating promotional and marketing materials. I'm located in Mid-Michigan, but I'm open to working remotely to provide whatever services I can! 
+					</div>
+					<div class="col-xs-12 col-sm-4 work">
+						<a href="/work-northwood.jpg"><img src="/work-northwood.jpg" alt="Northwood University"></a>
+					</div>
+					<div class="col-xs-12 col-sm-4 work">
+						<a href="/work-konoski.jpg"><img src="/work-konoski.jpg" alt="Magan Konoski"></a>
+					</div>
+					<div class="col-xs-12 col-sm-4 work">
+						<a href="/work-ninja.jpg"><img src="/work-ninja.jpg" alt="Project Management"></a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="contact">
+			<div class="container">
+				<form id="contact-form" class="row" action="//formspree.io/hello@joshallen.io" method="post">
+					<div class="col-xs-12">
+						<h3>Contact Me</h3>
+					</div>
+					<div class="col-xs-12 col-sm-6">
+						<input type="text" name="Name" placeholder="Name" required>
+					</div>
+					<div class="col-xs-12 col-sm-6">
+						<input type="email" name="Email" placeholder="Email" required>
+					</div>
+					<div class="col-xs-12">
+						<textarea name="Message" cols="30" rows="3" placeholder="Message" required></textarea>
+					</div>
+					<!-- CONFIG -->
+					<input class="is-hidden" type="text" name="_gotcha" style="display: none;">
+					<input type="hidden" name="_subject" value="Josh Allen Contact Form Submission">
+					<!-- /CONFIG -->
+					<div class="col-xs-12">
+						<input class="submit" type="submit" value="Send">
+					</div>
+				</form>
+			</div>
+		</section>
+		<footer>
+			<p>&copy; 2010<script>new Date().getFullYear()>2010&&document.write("-"+new Date().getFullYear());</script> Josh Allen | Made with <i class="ion-ios-heart"></i> in Mid-Michigan</p>
+		</footer>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				var $contactForm = $('form');
+				$contactForm.submit(function(e) {
+					e.preventDefault();
+					$.ajax({
+						url: '//formspree.io/hello@joshallen.io',
+						method: 'POST',
+						data: $(this).serialize(),
+						dataType: 'json',
+						beforeSend: function() {
+							$contactForm.append('<div class="alert alert-loading">Sending message...</div>');
+						},
+						success: function(data) {
+							$contactForm.find('.alert-loading').hide();
+							$contactForm.append('<div class="alert alert-success">Message sent!</div>');
+						},
+						error: function(err) {
+							$contactForm.find('.alert-loading').hide();
+							$contactForm.append('<div class="alet-error">Ops, there was an error.</div>');
+						}
+					});
+					return false;
+				});
+			});
+		</script>
+	</body>
+</html>

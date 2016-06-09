@@ -1,0 +1,213 @@
+@font-face {
+    font-family: 'Brandon Grotesque';
+    src: url('brandon_bld_it-webfont.eot');
+    src: url('brandon_bld_it-webfont.eot?#iefix') format('embedded-opentype'),
+         url('brandon_bld_it-webfont.woff2') format('woff2'),
+         url('brandon_bld_it-webfont.woff') format('woff'),
+         url('brandon_bld_it-webfont.ttf') format('truetype'),
+         url('brandon_bld_it-webfont.svg#BrandonGrotesque') format('svg');
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Brandon Grotesque';
+    src: url('brandon_bld-webfont.eot');
+    src: url('brandon_bld-webfont.eot?#iefix') format('embedded-opentype'),
+         url('brandon_bld-webfont.woff2') format('woff2'),
+         url('brandon_bld-webfont.woff') format('woff'),
+         url('brandon_bld-webfont.ttf') format('truetype'),
+         url('brandon_bld-webfont.svg#BrandonGrotesque') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Brandon Grotesque';
+    src: url('brandon_light_it-webfont.eot');
+    src: url('brandon_light_it-webfont.eot?#iefix') format('embedded-opentype'),
+         url('brandon_light_it-webfont.woff2') format('woff2'),
+         url('brandon_light_it-webfont.woff') format('woff'),
+         url('brandon_light_it-webfont.ttf') format('truetype'),
+         url('brandon_light_it-webfont.svg#BrandonGrotesque') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Brandon Grotesque';
+    src: url('brandon_light-webfont.eot');
+    src: url('brandon_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('brandon_light-webfont.woff2') format('woff2'),
+         url('brandon_light-webfont.woff') format('woff'),
+         url('brandon_light-webfont.ttf') format('truetype'),
+         url('brandon_light-webfont.svg#BrandonGrotesque') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Brandon Grotesque';
+    src: url('brandon_med_it-webfont.eot');
+    src: url('brandon_med_it-webfont.eot?#iefix') format('embedded-opentype'),
+         url('brandon_med_it-webfont.woff2') format('woff2'),
+         url('brandon_med_it-webfont.woff') format('woff'),
+         url('brandon_med_it-webfont.ttf') format('truetype'),
+         url('brandon_med_it-webfont.svg#BrandonGrotesque') format('svg');
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Brandon Grotesque';
+    src: url('brandon_med-webfont.eot');
+    src: url('brandon_med-webfont.eot?#iefix') format('embedded-opentype'),
+         url('brandon_med-webfont.woff2') format('woff2'),
+         url('brandon_med-webfont.woff') format('woff'),
+         url('brandon_med-webfont.ttf') format('truetype'),
+         url('brandon_med-webfont.svg#BrandonGrotesque') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Brandon Grotesque';
+    src: url('brandon_reg_it-webfont.eot');
+    src: url('brandon_reg_it-webfont.eot?#iefix') format('embedded-opentype'),
+         url('brandon_reg_it-webfont.woff2') format('woff2'),
+         url('brandon_reg_it-webfont.woff') format('woff'),
+         url('brandon_reg_it-webfont.ttf') format('truetype'),
+         url('brandon_reg_it-webfont.svg#BrandonGrotesque') format('svg');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Brandon Grotesque';
+    src: url('brandon_reg-webfont.eot');
+    src: url('brandon_reg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('brandon_reg-webfont.woff2') format('woff2'),
+         url('brandon_reg-webfont.woff') format('woff'),
+         url('brandon_reg-webfont.ttf') format('truetype'),
+         url('brandon_reg-webfont.svg#BrandonGrotesque') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Brandon Grotesque';
+    src: url('brandon_blk_it-webfont.eot');
+    src: url('brandon_blk_it-webfont.eot?#iefix') format('embedded-opentype'),
+         url('brandon_blk_it-webfont.woff2') format('woff2'),
+         url('brandon_blk_it-webfont.woff') format('woff'),
+         url('brandon_blk_it-webfont.ttf') format('truetype'),
+         url('brandon_blk_it-webfont.svg#BrandonGrotesque') format('svg');
+    font-weight: 900;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Brandon Grotesque';
+    src: url('brandon_blk-webfont.eot');
+    src: url('brandon_blk-webfont.eot?#iefix') format('embedded-opentype'),
+         url('brandon_blk-webfont.woff2') format('woff2'),
+         url('brandon_blk-webfont.woff') format('woff'),
+         url('brandon_blk-webfont.ttf') format('truetype'),
+         url('brandon_blk-webfont.svg#BrandonGrotesque') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Brandon Grotesque';
+    src: url('brandon_thin_it-webfont.eot');
+    src: url('brandon_thin_it-webfont.eot?#iefix') format('embedded-opentype'),
+         url('brandon_thin_it-webfont.woff2') format('woff2'),
+         url('brandon_thin_it-webfont.woff') format('woff'),
+         url('brandon_thin_it-webfont.ttf') format('truetype'),
+         url('brandon_thin_it-webfont.svg#BrandonGrotesque') format('svg');
+    font-weight: 100;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Brandon Grotesque';
+    src: url('brandon_thin-webfont.eot');
+    src: url('brandon_thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('brandon_thin-webfont.woff2') format('woff2'),
+         url('brandon_thin-webfont.woff') format('woff'),
+         url('brandon_thin-webfont.ttf') format('truetype'),
+         url('brandon_thin-webfont.svg#BrandonGrotesque') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('proximanova-bold-webfont.eot');
+    src: url('proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('proximanova-bold-webfont.woff') format('woff'),
+         url('proximanova-bold-webfont.ttf') format('truetype'),
+         url('proximanova-bold-webfont.svg#ProximaNova') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('proximanova-boldit-webfont.eot');
+    src: url('proximanova-boldit-webfont.eot?#iefix') format('embedded-opentype'),
+         url('proximanova-boldit-webfont.woff') format('woff'),
+         url('proximanova-boldit-webfont.ttf') format('truetype'),
+         url('proximanova-boldit-webfont.svg#ProximaNova') format('svg');
+    font-weight: 900;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('proximanova-light-webfont.eot');
+    src: url('proximanova-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('proximanova-light-webfont.woff') format('woff'),
+         url('proximanova-light-webfont.ttf') format('truetype'),
+         url('proximanova-light-webfont.svg#ProximaNova') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('proximanova-lightitalic-webfont.eot');
+    src: url('proximanova-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('proximanova-lightitalic-webfont.woff') format('woff'),
+         url('proximanova-lightitalic-webfont.ttf') format('truetype'),
+         url('proximanova-lightitalic-webfont.svg#ProximaNova') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('proximanova-regular-webfont.eot');
+    src: url('proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('proximanova-regular-webfont.woff') format('woff'),
+         url('proximanova-regular-webfont.ttf') format('truetype'),
+         url('proximanova-regular-webfont.svg#ProximaNova') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('proximanova-regularitalic-webfont.eot');
+    src: url('proximanova-regularitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('proximanova-regularitalic-webfont.woff') format('woff'),
+         url('proximanova-regularitalic-webfont.ttf') format('truetype'),
+         url('proximanova-regularitalic-webfont.svg#ProximaNova') format('svg');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('proximanova-semibold-webfont.eot');
+    src: url('proximanova-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('proximanova-semibold-webfont.woff') format('woff'),
+         url('proximanova-semibold-webfont.ttf') format('truetype'),
+         url('proximanova-semibold-webfont.svg#ProximaNova') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('proximanova-semibolditalic-webfont.eot');
+    src: url('proximanova-semibolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('proximanova-semibolditalic-webfont.woff') format('woff'),
+         url('proximanova-semibolditalic-webfont.ttf') format('truetype'),
+         url('proximanova-semibolditalic-webfont.svg#ProximaNova') format('svg');
+    font-weight: 700;
+    font-style: italic;
+}
